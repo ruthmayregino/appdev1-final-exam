@@ -35,8 +35,8 @@ function Login() {
 
   return (
     <div className="container">
-      <h1>Login</h1>
-      <p style={{ marginBottom: "20px", opacity: 0.7 }}>
+      <h1 style={{ textAlign: "center" }}>Login</h1>
+      <p style={{ marginBottom: "20px", opacity: 0.7, textAlign: "center" }}>
         Enter your username and secret password.
       </p>
 
