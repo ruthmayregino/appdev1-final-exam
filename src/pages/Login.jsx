@@ -43,7 +43,7 @@ const styles = {
   title: {
     fontSize: "2rem",
     marginBottom: "20px",
-    color: "#333",
+    color: "#000000ff",
   },
   form: {
     width: "100%",
@@ -56,7 +56,7 @@ const styles = {
     padding: "10px",
     fontSize: "1rem",
     borderRadius: "5px",
-    border: "1px solid #ccc",
+    border: "1px solid #ffffffff",
   },
   button: {
     padding: "10px",
