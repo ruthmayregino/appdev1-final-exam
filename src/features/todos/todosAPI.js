@@ -35,12 +35,7 @@ export const deleteTodoAPI = async(id) => {
     await instance.delete(`/todos/${id}`)
     return id // match old behavior (resolve with id)
 }
-
-/* ============================
-     USERS API (Login)
-   ============================ */
-
-// GET /users?limit=3
+//
 export const getUsersAPI = async(limit = 3) => {
     const res = await instance.get('/users')
     return res.data.slice(0, limit)
